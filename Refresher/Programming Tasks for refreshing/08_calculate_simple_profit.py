@@ -13,7 +13,6 @@ def main():
         year_input = float(input("Enter the time period in years : "))
 
         print(f"Simple Profit : {calc_profit(amount_input, rate_input, year_input)}")
-        # exit()
     except:
         print("~~~{ Opps! : Input Error, but you can enter values again :) }~~~" + "\n" + "Enter Again!")
         main()
